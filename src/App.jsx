@@ -21,7 +21,6 @@ import ForgotPassword from './pages/forgotPassword/ForgotPassword';
 import Verify from "./pages/verify/Verify"
 import SendCode from "./pages/sendCode/SendCode"
 
-
 function App() {
   const router = createBrowserRouter([
     {
