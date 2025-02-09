@@ -3,7 +3,7 @@ import Login from "./pages/login/Login"
 import Signup from "./pages/signup/Signup"
 import Home from "./pages/home/Home"
 import Layout from "./components/layout/Layout"
-import toast, { Toaster } from 'react-hot-toast';
+import  { Toaster } from 'react-hot-toast';
 import ProtectedRoute from './components/protectedroute/ProtectedRoute';
 import GuestRoute from "./components/guestroute/GuestRoute"
 import UserProvider from "./context/User.Context"

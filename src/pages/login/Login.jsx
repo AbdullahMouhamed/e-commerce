@@ -3,8 +3,8 @@ import axios from "axios"
 import { useFormik } from "formik"
 import { useContext, useState } from "react"
 import toast from "react-hot-toast"
-import { Link, Navigate, useNavigate } from "react-router-dom"
-import { object, ref, string } from "yup"
+import { Link, useNavigate } from "react-router-dom"
+import { object, string } from "yup"
 import { UserContext } from "../../context/User.Context"
 import { Helmet } from 'react-helmet';
 
